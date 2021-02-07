@@ -29,3 +29,4 @@ brew install <formula>
 
 ### Obsolete
 - 04/06/2019: [Ghidra added to homebrew-cask](https://github.com/Homebrew/homebrew-cask/pull/59872)
+- 02/07/2021: Matterhorn has been in homebrew for a while now I guess.
