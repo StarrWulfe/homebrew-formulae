@@ -88,7 +88,7 @@ class LibguestfsAT132 < Formula
   depends_on "readline"
   depends_on "xz"
   depends_on "yajl"
-  depends_on :osxfuse
+  depends_on "libfuse" # I don't know if this actually works to build this in homebrew, but I need it to clear the syntax error to get another package!
 
   # Since we can't build an appliance, the recommended way is to download a fixed one.
   resource "fixed_appliance" do
